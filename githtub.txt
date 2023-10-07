@@ -1,0 +1,34 @@
+Step 0 (Se o repositorio remote não existe)
+- vai no github https://github.com/
+- cria um repositorio novo lá
+
+Step 1 - Criar o repositorio localmente
+
+git init (inicia um repositorio localmente dentro da pasta que vc rodar o comando)
+
+- adicionar arquivos na area de stage
+git add .
+
+- (opcional) verificar arquivos
+git status
+
+- commitar arquivos
+git commit -m "Comitei meus arquivos"
+
+Step 2 - Vincular o repositorio local com o repositorio remoto (no github)
+
+git remote add origin https://github.com/IsTheJack/basic_html.git
+git remote add <note do vinculo> <endereco do repositorio>
+
+Step 3 - Jogar a informacao local pro repositorio remoto
+
+git push origin master
+
+============
+
+Step 4 - Atualizar o repositorio e o site
+
+4.1 - adicionar arquivos na area de stage
+4.2 - Commitar as mudanças
+4.3 - Fazer o Push pra Master
+
